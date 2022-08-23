@@ -13,7 +13,7 @@ export function Header({onOpenNewTransitionModal}: Headerprops){
     return(
         <Container>
             <Content>
-                <img src = {logoImg} alt="caue money"/>
+                <img src = {logoImg} alt="dt Money"/>
                     <button type="button" onClick = {onOpenNewTransitionModal}>
                      Nova transação    
                 </button>
